@@ -1,0 +1,22 @@
+/* Ajustes finos além do Bootstrap */
+
+.squirtle-img {
+    max-width: 120px;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Cursor de texto sobre o span do nome, indicando que é clicável para editar */
+.list-group-item .item-text {
+    cursor: text;
+    flex-grow: 1;
+}
+
+/* Wrapper do modo de edição ocupa o espaço disponível */
+.list-group-item .edit-wrapper {
+    flex-grow: 1;
+}
